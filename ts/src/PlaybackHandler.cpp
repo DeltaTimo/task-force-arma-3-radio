@@ -2,8 +2,8 @@
 #include <vector>
 
 #include "helpers.hpp"
-#include <dspfilters/Filter.h>
-#include <dspfilters/Butterworth.h>
+#include <DspFilters/filter.h>
+#include <DspFilters/butterworth.h>
 #include "clientData.hpp"
 #include "task_force_radio.hpp"
 #include "Teamspeak.hpp"
