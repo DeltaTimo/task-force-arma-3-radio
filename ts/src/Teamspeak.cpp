@@ -704,7 +704,7 @@ void Teamspeak::setClient3DPosition(TSServerID serverConnectionHandlerID, TSClie
 * If any of these required functions is not implemented, TS3 will refuse to load the plugin
 */
 
-#pragma comment (lib, "version.lib")
+/* winemaker: Added -lversion to the libraries */
 
 extern "C" {
     char new_onPluginCommandEvent;

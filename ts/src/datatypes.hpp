@@ -6,6 +6,7 @@
 #include <chrono>
 #include <string_view>
 #include <stdexcept>
+#include <cstring>
 
 #define M_PI_FLOAT 3.14159265358979323846f
 namespace dataType {
@@ -188,7 +189,7 @@ namespace dataType {
     class NetID {
     public:
         NetID(std::string_view netIDStr) {
-            const char *idStr = strchr(netIDStr.data(), ':');
+            const char *idStr = std::strchr(netIDStr.data(), ':');
             if (idStr) {
                 creator = atoi(netIDStr.data());
                 objID = atoi(idStr + 1);

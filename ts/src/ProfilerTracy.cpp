@@ -5,7 +5,7 @@
 
 
 #if ENABLE_TRACY_PROFILING
-#include <TracyClient.cpp>
+#include <tracyclient.cpp>
 #endif
 
 ProfilerTracy GProfilerTracy{};

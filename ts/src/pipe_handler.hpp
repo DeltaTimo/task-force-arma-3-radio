@@ -1,5 +1,6 @@
 #pragma once
-#include <Windows.h>
+#define NOMINMAX
+#include <windows.h>
 #include "common.hpp"
 class pipe_handler {
 public:

@@ -1,7 +1,8 @@
 #pragma once
 #include <string>
 #include "common.hpp"
-#include <Windows.h>
+#define NOMINMAX
+#include <windows.h>
 #include "SignalSlot.hpp"
 /*
 Shared Mem layout

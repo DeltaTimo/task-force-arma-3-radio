@@ -10,6 +10,7 @@
 #include <functional>
 #include <emmintrin.h>
 #include <iterator>
+#include <climits>
 
 #include "SampleBuffer.hpp"
 

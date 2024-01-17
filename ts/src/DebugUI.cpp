@@ -1,6 +1,6 @@
 #include "DebugUI.h"
-#pragma comment(lib,"opengl32.lib")
-#pragma comment(lib,"freetype.lib")
+/* winemaker: Added -lopengl32 to the libraries */
+/* winemaker: Added -lfreetype to the libraries */
 
 #include <freetype/include/ft2build.h>
 #include FT_FREETYPE_H  
@@ -8,7 +8,7 @@
 
 #define _GLFW_WIN32
 #include <glad/include/glad/glad.h>
-#include <glfw/include/GLFW/glfw3.h>
+#include <glfw/include/glfw/glfw3.h>
 #include <glm/glm/glm.hpp>
 #include <glm/glm/gtc/matrix_transform.hpp>
 #include <glm/glm/gtc/type_ptr.hpp>

@@ -1,7 +1,8 @@
 #pragma once
 #include <chrono>
 #include "common.hpp"
-#include <Windows.h>
+#define NOMINMAX
+#include <windows.h>
 #include <memory>
 #include <utility>
 #include "version.h"

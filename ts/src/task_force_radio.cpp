@@ -1,6 +1,7 @@
 #include "task_force_radio.hpp"
-#include <Windows.h>
-#include <WinInet.h>
+#define NOMINMAX
+#include <windows.h>
+#include <wininet.h>
 #include "common.hpp"
 #include <thread>
 #include <locale>

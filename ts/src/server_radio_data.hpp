@@ -1,6 +1,7 @@
 #pragma once
 #include "client_data.hpp"
-#include <Windows.h>
+#define NOMINMAX
+#include <windows.h>
 extern CRITICAL_SECTION serverDataCriticalSection;
 struct FREQ_SETTINGS {
 	int volume;

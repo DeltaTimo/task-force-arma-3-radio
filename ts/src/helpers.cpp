@@ -22,8 +22,8 @@ void helpers::applyILD(SampleBuffer& samples, Direction3D direction, AngleRadian
     }
 }
 #define _SPEAKER_POSITIONS_
-#include <X3daudio.h>
-#pragma comment(lib, "x3daudio.lib")
+#include <x3daudio.h>
+/* winemaker: Added -lx3daudio to the libraries */
 X3DAUDIO_HANDLE x3d_handle;
 bool x3d_initialized = false;
 

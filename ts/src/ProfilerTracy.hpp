@@ -10,7 +10,7 @@
 #else
 //#define ENABLE_API_PROFILER 1     // Comment this line to disable the profiler
 
-#ifdef _DEBUG
+#if defined(_DEBUG) || defined(__linux__)
 #define ENABLE_TRACY_PROFILER 0 //Can't use __LINE__ in /ZI build
 #else
 #define ENABLE_TRACY_PROFILER 1
@@ -30,7 +30,7 @@
 #define TRACY_ENABLE
 #define TRACY_ON_DEMAND
 #define TRACY_NO_SYSTEM_TRACING
-#include <Tracy.hpp>
+#include <tracy.hpp>
 #endif
 
 struct SourceLocationData

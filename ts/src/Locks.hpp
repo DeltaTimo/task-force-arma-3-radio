@@ -1,6 +1,7 @@
 #pragma once
 
-#include <Windows.h>
+#define NOMINMAX
+#include <windows.h>
 /*
 could also use std::shared_lock and std::unique_lock from
 #include <shared_mutex>

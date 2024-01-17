@@ -9,6 +9,7 @@
 #include "Teamspeak.hpp"
 #include "Logger.hpp"
 #include <filesystem>
+#include <climits>
 
 std::string SoundFile::getFullPath() const {
     return TFAR::getInstance().getPluginPath() + fileName + ".wav";
