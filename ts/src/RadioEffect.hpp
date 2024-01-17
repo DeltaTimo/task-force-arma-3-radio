@@ -1,6 +1,6 @@
 #pragma once
-#include "DspFilters\Butterworth.h"
-#include "DspFilters\RBJ.h"
+#include "DspFilters/Butterworth.h"
+#include "DspFilters/RBJ.h"
 #include "helpers.hpp"
 #include <simpleSource/SimpleComp.h>
 #include <numeric>
